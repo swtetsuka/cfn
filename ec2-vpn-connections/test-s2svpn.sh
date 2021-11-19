@@ -14,7 +14,7 @@
 # CloudFormation Parameters
 CFN_TEMPLATE_FILE="test-s2svpn.yml"
 CFN_STACK_NAME="test-s2svpn"
-PREFIX="test-s2xvpn"
+PREFIX="test-s2svpn"
 SSH_CLIENT_IP="$(curl -s checkip.amazonaws.com)/32"
 KEY_PAIR_NAME="TestMyKeyPair"
 
